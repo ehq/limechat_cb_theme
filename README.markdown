@@ -9,7 +9,7 @@ or
 
 `/Library/Application\ Support/LimeChat/Themes`
 
-Next time you open LimeChat hit comman + , and choose the cb theme from the dropdown in the themes tab.
+Next time you open LimeChat hit `command ,` and choose the cb theme from the dropdown in the themes tab.
 
 Screenshots
 ===========
