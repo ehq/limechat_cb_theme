@@ -27,7 +27,7 @@ server-tree:
     font-size: 11.0
     background-color: '#f3f3f3'
     highlight:
-        color: '#fac695'
+        color: '#ed1455'
     newtalk:
         color: '#ed1455'
     unread:
