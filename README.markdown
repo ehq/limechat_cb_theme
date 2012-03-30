@@ -1,13 +1,13 @@
 Installation
 ============
 
-Copy the cb folder into your limechat themes folder. Depending on how you installed limechat, that can either be:
+Copy the cb folder into your limechat themes folder. Depending on how you installed LimeChat, that can either be:
 
-`~/Library/Application Support/net.limechat.LimeChat-AppStore/Themes`
+`~/Library/Application\ Support/net.limechat.LimeChat-AppStore/Themes`
 
 or
 
-`/Library/Application Support/LimeChat/Themes`
+`/Library/Application\ Support/LimeChat/Themes`
 
 Next time you open LimeChat hit comman + , and choose the cb theme from the dropdown in the themes tab.
 
