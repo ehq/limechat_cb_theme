@@ -48,7 +48,7 @@ body.normal img {
 /*** End Sender ***/
 
 body.normal a:link, a:visited, a:hover, a:active {
-  color: #84aace;
+  color: #5592d3;
   text-decoration: none;
 }
 
@@ -171,7 +171,7 @@ body.normal .highlight {
 }
 
 body.normal .line[highlight=true] a:link, a:visited, a:hover, a:active {
-  color: #172734;
+  color: #5592d3;
 }
 
 body.normal .line[highlight=true] a:hover {
