@@ -1,7 +1,7 @@
 Installation
 ============
 
-Copy the cb folder into your limechat themes folder. Depending on how you installed LimeChat, that can either be:
+Copy the contents of the cb folder into your limechat themes folder. Depending on how you installed LimeChat, that can either be:
 
 `~/Library/Application\ Support/net.limechat.LimeChat-AppStore/Themes`
 
@@ -9,17 +9,33 @@ or
 
 `/Library/Application\ Support/LimeChat/Themes`
 
+Alternatively you can just create a symlink so when you download updates those are loaded automatically.
+
 Next time you open LimeChat hit `command ,` and choose the cb theme from the dropdown in the themes tab.
 
 Screenshots
 ===========
 
-![cb_theme_basic](http://f.cl.ly/items/393j3N2Z3B1J3o241z2a/Screen%20Shot%202012-03-30%20at%2011.41.21%20AM.png)
+![cb_theme_basic](http://f.cl.ly/items/330J1S3M3Q1q223Z2O2x/Screen%20Shot%202012-03-30%20at%207.14.05%20PM.png)
 
-![cb_theme_full_of_text](http://f.cl.ly/items/1L2X24081n1P0X3j1W2A/Screen%20Shot%202012-03-30%20at%2011.56.00%20AM.png)
+![cb_theme_full_of_text](http://f.cl.ly/items/3W1g2I1G2K2m3Y1x3Y1j/Screen%20Shot%202012-03-30%20at%207.18.55%20PM.png)
 
 Background for #rubysur on Freenode:
-![cb_theme_ruby_background](http://f.cl.ly/items/300P1D1k2U1l2x1O1d1F/Screen%20Shot%202012-03-30%20at%2011.43.47%20AM.png)
+![cb_theme_ruby](http://f.cl.ly/items/0A1U2R2z0z2n2C2W0f3L/Screen%20Shot%202012-03-30%20at%207.26.34%20PM.png)
 
 Background for #ohm on Freenode:
-![cb_theme_ohm_background](http://f.cl.ly/items/0J2p3g3D3l1t2t3E2Y1b/Screen%20Shot%202012-03-30%20at%2012.28.07%20PM.png)
+![cb_theme_ohm](http://f.cl.ly/items/121y2e433z2f3t2r0B2F/Screen%20Shot%202012-03-30%20at%207.25.46%20PM.png)
+
+Background for #adtraffic:
+![cb_theme_adtraffic](http://f.cl.ly/items/3u0H19470z1C3b3V0T1b/Screen%20Shot%202012-03-30%20at%207.24.11%20PM.png)
+
+Background for #scorerev:
+![cb_theme_scorerev](http://f.cl.ly/items/0h1H0F3r0h1M0R001l2r/Screen%20Shot%202012-03-30%20at%207.19.41%20PM.png)
+
+Background for #attmhealth:
+![cb_theme_mhealth](http://f.cl.ly/items/1f1H0y1R1c3x473g0Z3n/Screen%20Shot%202012-03-30%20at%207.27.48%20PM.png)
+
+License
+=======
+
+Released under the E.H.Q License. Basically if you are reading this, you already owe me money.
