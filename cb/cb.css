@@ -1,0 +1,217 @@
+.normal {
+  color: #4b4b4b;
+  background-color: white;
+  font: 12px "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body.normal a img {
+  border: 0;
+}
+
+body.normal img {
+  display: block;
+  padding: 5px;
+  max-width: 95%;
+  box-shadow: 0 1px 0 #ddd, inset 0 3px 5px #ddd;
+  -webkit-box-shadow: 0 1px 0 #ddd, inset 0 3px 5px #ddd;
+  -moz-box-shadow: 0 1px 0 #ddd, inset 0 3px 5px #ddd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+
+/*** Sender styles ***/
+.normal .sender {
+  padding: 0.4em 0;
+  float: left;
+  font-weight: bold;
+  overflow: hidden;
+  text-align: right;
+  width: 80px;
+}
+
+.normal .sender[type=myself]:hover:before {
+  color: #bebebe;
+}
+
+.sender[type=myself] {
+  color: #28374c;
+}
+
+.sender[type=normal] {
+  color: #fff;
+}
+/*** End Sender ***/
+
+body.normal a:link, a:visited, a:hover, a:active {
+  color: #84aace;
+  text-decoration: none;
+}
+
+body.normal .line {
+  padding: 0;
+  margin: 0;
+  background: #ed1455;
+}
+
+body.normal .event {
+  color: #2c3236;
+  background-color: #ed1455;
+}
+
+body.normal .text span {
+  display: block;
+}
+
+body.normal .text span.message {
+  border-bottom: #ddd 1px dotted;
+  background: white;
+}
+
+body.normal .line .message {
+  margin: 0 0 0 120px;
+  padding: 0.4em;
+  color: #ed1455;
+  border-left: 1px solid #ddd;
+}
+
+body.normal .event .message {
+  margin: 0 0 0 120px;
+  padding: 0.4em;
+  border: none;
+  display: block;
+  background-color: white;
+  color: #a6b9c0;
+  font-size: 11px;
+}
+
+body.normal .line .time {
+  float: left;
+  margin-right: 6px;
+  margin-top: 5px;
+  margin-left: 4px;
+  color: #ddd;
+  font: bold 10px "Helvetica Neue", Helvetica, Verdana, sans-serif;
+}
+
+body.normal .line .place {
+  display: block;
+  color: #999;
+  margin: 0;
+  font-size: 10px;
+}
+
+body.normal .event .time {
+  margin: 1px 3px;
+  float: left;
+  text-align: right;
+  font-size: 10px;
+}
+
+body.normal .line[highlight=true] span.message {
+  background: #68788c;
+  color: #fff;
+  border: none;
+}
+
+body.normal .member {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+body.normal .member:hover {
+  text-decoration: underline;
+}
+
+body.normal hr {
+  margin: 0;
+  padding: 2px;
+  border: none;
+  background-color: #d33b54;
+  height: 2px;
+  text-align: center;
+}
+
+body.normal .line[type=action] .message {
+  background: #2c3236;
+  border-left: none;
+  border-bottom: none;
+  margin: 0 0 0 130px;
+}
+
+body.normal .url {
+  word-break: break-all;
+}
+
+body.normal .address {
+  word-break: break-all;
+}
+
+body.normal .highlight {
+  color: #000;
+  font-weight: bold;
+}
+
+body.normal .line[highlight=true] a:link, a:visited, a:hover, a:active {
+  color: #172734;
+}
+
+body.normal .line[highlight=true] a:hover {
+  color: #000;
+  text-decoration: none;
+  border-bottom: solid 1px #000;
+}
+
+body.normal .message[type=system] {
+  color: #eee;
+}
+
+body.normal .message[type=error] {
+  color: #d14025;
+  font-weight: bold;
+}
+
+body.normal .message[type=reply] {
+  color: #a6b9c0;
+}
+
+body.normal .message[type=error_reply] {
+  color: #d33b54;
+}
+
+body.normal .message[type=dcc_send_send] {
+  color: #a6b9c0;
+}
+
+body.normal .message[type=dcc_send_receive] {
+  color: #153b7c;
+}
+
+body.normal .message[type=notice] {
+  color: #888;
+}
+
+body.normal .message[type=action] {
+  color: #ddd;
+  font-style: italic;
+  font-weight: bold;
+}
+
+body.normal .message {
+  color: #a6b9c0;
+}
+
+html.normal {
+  background: white url('badges/bg.png') no-repeat fixed bottom right;
+}
+html[channelname="#rubysur"].normal {
+  background: white url('badges/ruby.png') no-repeat fixed bottom right;
+}
+html[channelname="#ohm"].normal {
+  background: white url('badges/ohm.jpg') no-repeat fixed bottom right;
+}
+html[channelname="#adtraffic"].normal,
+html[channelname="#adtraffic-dev"].normal {
+  background: white url('badges/ohm.jpg') no-repeat fixed bottom right;
+}
