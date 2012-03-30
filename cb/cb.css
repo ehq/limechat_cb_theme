@@ -1,6 +1,6 @@
 .normal {
   color: #4b4b4b;
-  background-color: white;
+  background-color: transparent;
   font: 12px "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
   margin: 0;
   padding: 0;
@@ -23,12 +23,15 @@ body.normal img {
 
 /*** Sender styles ***/
 .normal .sender {
-  padding: 0.4em 0;
+  padding: 0.3em 5px;
   float: left;
+  line-height: 15px;
   font-weight: bold;
   overflow: hidden;
   text-align: right;
-  width: 80px;
+  width: 70px;
+  height: inherit;
+  background-color: #ed1455;
 }
 
 .normal .sender[type=myself]:hover:before {
@@ -36,11 +39,11 @@ body.normal img {
 }
 
 .sender[type=myself] {
-  color: #28374c;
+  color: #000;
 }
 
 .sender[type=normal] {
-  color: #fff;
+  color: #f3f3f3;
 }
 /*** End Sender ***/
 
@@ -52,12 +55,12 @@ body.normal a:link, a:visited, a:hover, a:active {
 body.normal .line {
   padding: 0;
   margin: 0;
-  background: #ed1455;
+  height: auto;
+  background: transparent url('badges/line.png') repeat-y left top;
 }
 
 body.normal .event {
   color: #2c3236;
-  background-color: #ed1455;
 }
 
 body.normal .text span {
@@ -66,14 +69,18 @@ body.normal .text span {
 
 body.normal .text span.message {
   border-bottom: #ddd 1px dotted;
-  background: white;
+  background: transparent;
 }
 
 body.normal .line .message {
   margin: 0 0 0 120px;
   padding: 0.4em;
+  line-height: 15px;
   color: #ed1455;
-  border-left: 1px solid #ddd;
+  text-shadow: 1px 1px 1px #fff, -1px -1px 1px #fff;
+}
+body.normal .line .event {
+  background: transparent url('badges/line.png') repeat-y left top;
 }
 
 body.normal .event .message {
@@ -81,18 +88,21 @@ body.normal .event .message {
   padding: 0.4em;
   border: none;
   display: block;
-  background-color: white;
   color: #a6b9c0;
-  font-size: 11px;
+  font-size: 12px;
+  line-height: 15px;
+  border-bottom: #ddd 1px dotted;
 }
 
 body.normal .line .time {
   float: left;
-  margin-right: 6px;
-  margin-top: 5px;
-  margin-left: 4px;
+  padding-right: 6px;
+  padding-top: 5px;
+  padding-left: 4px;
+  height: auto;
   color: #ddd;
   font: bold 10px "Helvetica Neue", Helvetica, Verdana, sans-serif;
+  background-color: #ed1455;
 }
 
 body.normal .line .place {
@@ -103,16 +113,21 @@ body.normal .line .place {
 }
 
 body.normal .event .time {
-  margin: 1px 3px;
   float: left;
-  text-align: right;
-  font-size: 10px;
+  padding-right: 6px;
+  padding-top: 5px;
+  padding-left: 4px;
+  height: auto;
+  color: #ddd;
+  font: bold 10px "Helvetica Neue", Helvetica, Verdana, sans-serif;
+  background-color: #ed1455;
 }
 
 body.normal .line[highlight=true] span.message {
-  background: #68788c;
-  color: #fff;
+  background: transparent url('badges/highlight.png') repeat left top;
+  color: #777;
   border: none;
+  text-shadow: none;
 }
 
 body.normal .member {
@@ -137,7 +152,9 @@ body.normal .line[type=action] .message {
   background: #2c3236;
   border-left: none;
   border-bottom: none;
-  margin: 0 0 0 130px;
+  margin: 0 0 0 120px;
+  color: #fff;
+  text-shadow: none;
 }
 
 body.normal .url {
@@ -164,7 +181,7 @@ body.normal .line[highlight=true] a:hover {
 }
 
 body.normal .message[type=system] {
-  color: #eee;
+  color: #c1c1c1;
 }
 
 body.normal .message[type=error] {
@@ -214,4 +231,13 @@ html[channelname="#ohm"].normal {
 html[channelname="#adtraffic"].normal,
 html[channelname="#adtraffic-dev"].normal {
   background: white url('badges/adtraffic.png') no-repeat fixed bottom right;
+}
+html[channelname="#scorerev"].normal {
+  background: white url('badges/scorerev.png') no-repeat fixed bottom right;
+}
+html[channelname="#cb_update"].normal {
+  background: white url('badges/cb.png') no-repeat fixed bottom right;
+}
+html[channelname="#attmhealth"].normal {
+  background: white url('badges/mhealt.png') no-repeat fixed bottom right;
 }
