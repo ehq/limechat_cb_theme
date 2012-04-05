@@ -1,17 +1,16 @@
 Installation
 ============
 
-Copy the contents of the cb folder into your limechat themes folder. Depending on how you installed LimeChat, that can either be:
+* Soft installation:  _create symbolic links, for frequent updates._
 
-`~/Library/Application\ Support/net.limechat.LimeChat-AppStore/Themes`
+`$ ./install.sh --soft` or just `$ ./install.sh` because is the default option.
 
-or
+* Hard installation:  _copy files, for those who don't want to keep the repository._
 
-`/Library/Application\ Support/LimeChat/Themes`
-
-Alternatively you can just create a symlink so when you download updates those are loaded automatically.
+`$ ./install.sh --hard`
 
 Next time you open LimeChat hit `command ,` and choose the cb theme from the dropdown in the themes tab.
+
 
 Screenshots
 ===========
