@@ -56,7 +56,7 @@ body.normal .line {
   padding: 0;
   margin: 0;
   height: auto;
-  background: transparent url('badges/line.png') repeat-y left top;
+  background: transparent url('cb-badges/line.png') repeat-y left top;
 }
 
 body.normal .event {
@@ -80,7 +80,7 @@ body.normal .line .message {
   text-shadow: 1px 1px 1px #fff, -1px -1px 1px #fff;
 }
 body.normal .line .event {
-  background: transparent url('badges/line.png') repeat-y left top;
+  background: transparent url('cb-badges/line.png') repeat-y left top;
 }
 
 body.normal .event .message {
@@ -124,7 +124,7 @@ body.normal .event .time {
 }
 
 body.normal .line[highlight=true] span.message {
-  background: transparent url('badges/highlight.png') repeat left top;
+  background: transparent url('cb-badges/highlight.png') repeat left top;
   color: #777;
   border: none;
   text-shadow: none;
@@ -220,24 +220,24 @@ body.normal .message {
 }
 
 html.normal {
-  background: white url('badges/cb_background.png') no-repeat fixed bottom right;
+  background: white url('cb-badges/cb_background.png') no-repeat fixed bottom right;
 }
 html[channelname="#rubysur"].normal {
-  background: white url('badges/ruby.png') no-repeat fixed bottom right;
+  background: white url('cb-badges/ruby.png') no-repeat fixed bottom right;
 }
 html[channelname="#ohm"].normal {
-  background: white url('badges/ohm.jpg') no-repeat fixed bottom right;
+  background: white url('cb-badges/ohm.jpg') no-repeat fixed bottom right;
 }
 html[channelname="#adtraffic"].normal,
 html[channelname="#adtraffic-dev"].normal {
-  background: white url('badges/adtraffic.png') no-repeat fixed bottom right;
+  background: white url('cb-badges/adtraffic.png') no-repeat fixed bottom right;
 }
 html[channelname="#scorerev"].normal {
-  background: white url('badges/scorerev.png') no-repeat fixed bottom right;
+  background: white url('cb-badges/scorerev.png') no-repeat fixed bottom right;
 }
 html[channelname="#cb_update"].normal {
-  background: white url('badges/cb.png') no-repeat fixed bottom right;
+  background: white url('cb-badges/cb.png') no-repeat fixed bottom right;
 }
 html[channelname="#attmhealth"].normal {
-  background: white url('badges/mhealt.png') no-repeat fixed bottom right;
+  background: white url('cb-badges/mhealt.png') no-repeat fixed bottom right;
 }
